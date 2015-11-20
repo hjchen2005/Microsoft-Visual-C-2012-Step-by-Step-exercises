@@ -5,9 +5,10 @@ exception, they all run, one after the other, to completion */
 using System;
 //using System.Windows.Forms;
 
-namespace TryCatch{
-    public class Main (){
-    String result;
+namespace ErrMgmt{
+    public class TryCatch{
+    Public void Main(string args[]){
+        string result;
         try{
             int lhs=int.Parse(lhsOperand.Text);
             int rhs=int.Parse(rhsOperand.Text);
@@ -23,5 +24,7 @@ namespace TryCatch{
             Console.WriteLine("Error: ",result); 
             Console.WriteLine("If you need any assistance, visit ",fEx.HelpLink);
         }
-  }
+    }
+}
+    
 }
