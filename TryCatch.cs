@@ -19,7 +19,8 @@ namespace TryCatch{
                 this.close();
             }*/
             //Message property contains a text description of the error that caused the exception.
-            Console.WriteLine("Error: ",fEx.Message); 
+            result=fEx.Message;
+            Console.WriteLine("Error: ",result); 
             Console.WriteLine("If you need any assistance, visit ",fEx.HelpLink);
         }
   }
