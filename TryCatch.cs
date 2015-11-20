@@ -7,7 +7,7 @@ using System;
 
 namespace ErrMgmt{
     public class TryCatch{
-    Public void Main(string args[]){
+    public static void Main(string args[]){
         string result;
         try{
             int lhs=int.Parse(lhsOperand.Text);
