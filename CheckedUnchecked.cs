@@ -4,7 +4,7 @@ OverflowException if an integer calculation in the block overflows*/
 
 using System;
 
-namespace CheckUncheck{
+namespace ErrMgmt{
   public class CheckUncheck{
     int num = int.MaxValue;
     checked{
