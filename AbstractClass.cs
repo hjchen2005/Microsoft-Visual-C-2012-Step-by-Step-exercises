@@ -8,7 +8,7 @@ namespace OOP{
 			public abstract void Draw();
 		}
 		public class Circle : GeometricShape{
-			public void Draw(){
+			public override void Draw(){
 				GraphicsExtensions circle = new GraphicsExtensions();
 				circle.DrawCircle(30,30,20);
 			}
