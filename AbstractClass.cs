@@ -2,8 +2,8 @@ using System;
 using GraphicsExtensions; //http://stackoverflow.com/questions/1835062/drawing-circles-with-system-drawing
 
 namespace OOP{
-	{
-	// Below cannot be instantiated
+	public class AbstractClass{
+		// Below cannot be instantiated
 		public abstract class GeometricShape{
 			public abstract void Draw();
 		}
