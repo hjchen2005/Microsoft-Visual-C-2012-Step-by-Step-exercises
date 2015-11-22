@@ -9,6 +9,7 @@ namespace ErrMgmt{
     public class TryCatch{
     public static void Main(string[] args){
         string result;
+        string lhsOperand = rhsOperand ="12";
         try{
             int lhs=int.Parse(lhsOperand.Text);
             int rhs=int.Parse(rhsOperand.Text);
