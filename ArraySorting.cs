@@ -19,6 +19,8 @@ public class ArraySorting : IComparable {
   string name;
   
   public int CompareTo(object obj){
+    //https://msdn.microsoft.com/en-us/library/system.icomparable.compareto(v=vs.110).aspx
+    
     ArraySorting arr = obj as ArraySorting;
     if (arr==null){
       throw NotImplementedException;
